@@ -26,7 +26,6 @@ class Board extends React.Component {
         const colCount = 3;
         return (
             <div>
-                <div className="status">{status}</div>
                 {[...new Array(rowCount)].map((row, rowIndex) => {
                     return (
                         <div key={rowIndex} className="board-row">
